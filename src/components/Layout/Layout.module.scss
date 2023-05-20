@@ -1,0 +1,15 @@
+.header{
+    grid-area: h;
+}
+.nav{
+    grid-area: n;
+}
+.main{
+    grid-area: m;
+}
+.layout{
+    display: grid;
+    grid-template-areas: 'h h'
+    'n m';
+    grid-template-columns: max-content 1fr;
+}
