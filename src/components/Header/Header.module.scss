@@ -1,3 +1,6 @@
 .Header{
-    background-color: aqua;
+    background-color: #464f79;
+    &>img{
+        height: 50px;
+    }
 }

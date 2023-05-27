@@ -1,3 +1,14 @@
+.layout{
+    background-color: #98a4da;
+    display: grid;
+    grid-template-areas: 'h h'
+    'n m';
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content 1fr;
+    padding: 15px;
+    gap: 10px;
+    min-height: 100vh;
+}
 .header{
     grid-area: h;
 }
@@ -6,10 +17,4 @@
 }
 .main{
     grid-area: m;
-}
-.layout{
-    display: grid;
-    grid-template-areas: 'h h'
-    'n m';
-    grid-template-columns: max-content 1fr;
 }
